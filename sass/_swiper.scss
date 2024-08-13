@@ -1,0 +1,101 @@
+.swiper{
+    height: 500px;
+    text-align: center;
+
+}
+.swiper-sec{
+    height: auto;
+    width: 100%;
+    margin: 50px auto 50px auto;
+    .swiper-slide{
+        width: 100%;
+        height: 100%;
+        position: relative;
+        aspect-ratio: 14/6;
+
+        img{
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            position: relative;
+            z-index: 0;
+        }
+        .caption{
+            background: rgba(211, 211, 211, 0.50);
+            backdrop-filter: blur(25px);
+            position: absolute;
+            max-height: 180px;
+            overflow: hidden;
+            bottom: 0;
+            display: flex;
+            align-items: center;
+            padding: 42px 50px 42px 50px;
+            text-align: left;
+            h3{
+                color: #FFF;
+                font-size: 28px;
+                font-weight: 600;
+                line-height: 34px; /* 121.429% */
+            }
+            p{
+                color: #FFF;
+                font-size: 18px;
+                font-weight: 400;
+                line-height: 26px; /* 144.444% */
+                opacity: 0.9;
+                margin: auto 120px auto 50px;
+            }
+            .incele{
+                background-color: #EA5F1B;
+                display: flex;
+                align-items: center;
+                padding: 20px 45px 20px 45px;
+                max-width: auto;
+                height: 52px;
+                border: none;
+                cursor: pointer;
+                transition: .35s;
+                &:hover{
+                    background-color:  lighten($color: #EA5F1B, $amount: 5);
+                    cursor: pointer;
+                    i{
+                        opacity: 1;
+                        right: 20px;
+                        transform: translateX(10px);
+                    }
+                }
+                span{
+                    color: #FFF;
+                    font-size: 17px;
+                    font-style: normal;
+                    font-weight: 600;
+                    line-height: normal;
+                }
+                i{
+                    opacity: 0;
+                    display: inline-block;
+                    transition-duration: .5s;
+                    font-size: 17px;
+                    color: #FFF;
+            
+                }
+            }
+
+        }
+
+    }
+    .swiper-button-next, .swiper-button-prev{
+        width: 36px;
+        height: 36px;
+        background-color: #EA5F1B;
+        color: #FFF;
+        &::after{
+            font-size: 12px;
+            width: 7px;
+            height: 11px;
+        }
+    }
+    .swipper-button-disabled{
+        background: none;
+    }
+}

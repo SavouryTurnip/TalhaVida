@@ -1,0 +1,178 @@
+.contact-page{
+    margin-top: 138px;
+    position: relative;
+
+    .haberler-banner{
+        .container{
+            justify-content: start;
+        }
+    }
+    .contact-main{
+        margin: 100px auto 100px auto;
+        display: flex;
+        gap: 106px;
+        h3{
+            color: #111;
+            font-size: 30px;
+            font-weight: 700;
+        }
+    }
+    .info{
+        background: rgba(220, 224, 230, 0.20);
+        padding: 82px 67px  82px 67px;
+        width: 47%;
+        position: relative;
+        overflow: hidden;
+        .mid-sosyal{
+            margin-top: 27px;
+
+
+            .icon{
+                p{
+                    color: #111;
+                    font-size: 19px;
+                    font-weight: 400;
+                    line-height: 135%; /* 25.65px */
+                    &:hover{
+                        color: #EA5F1B;
+                    }
+                }
+            }
+            .icon-last{
+                border-bottom: 1px solid rgba(0, 0, 0, 0.10);
+                padding-bottom: 50px;
+            }
+            .fallow{
+                margin-top: 55px;
+            }
+            .grid-fallow{
+                margin-top: 40px;
+                display: grid;
+                grid-template-columns: auto auto auto auto;
+                gap: 24px;
+                div{
+                    background-color: #e6e6e6;
+                    border-radius: 0;
+                    width: 56px;
+                    height: 56px;
+                    font-size: 24px;
+                    padding: 20px auto 16px auto;
+                    border: none;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    transition: .35s;
+                    i{
+                        border-radius: 0;
+                        font-size: 24px;
+                        padding: 20px auto 16px auto;
+                        border: none;
+                        color: #6f6f6f;
+                        transition: .35s;
+                    }
+                    &:hover{
+                        background-color: #EA5F1B;
+                        cursor: pointer;
+                        i{
+                            color: #FFF;
+                        }
+            
+                    }
+                }
+
+            }
+        }
+        .vector-vida{
+            position: absolute;
+            top: -20px;
+            right: -340px;
+            pointer-events: none;
+        }
+    }
+    .contact-form{
+        width: 44%;
+        .form{
+            margin-top: 52px;
+            gap: 22px;
+            display: flex;
+            flex-wrap: wrap;
+            .input{
+                min-width: 305px;
+                padding: 25px 28px 20px 28px;
+                border: 1px solid rgba(17, 17, 17, 0.16);
+                position: relative;
+                margin-bottom: 18px;
+
+                input{
+                    border: none;
+                    outline: none;
+                    color: #111;
+                    font-size: 18px;
+                    font-weight: 400;
+                    width: 100%;
+                    &::placeholder{
+                        color: #111;
+                        font-size: 18px;
+                        font-weight: 400;
+                    }
+                }
+                p{
+                    padding: 7px 15px 7px 15px;
+                    position: absolute;
+                    left: 13px;
+                    top: -18px;
+                    background-color: #FFF;
+                    color: rgba(17, 17, 17, 0.50);
+                    font-size: 18px;
+                    font-weight: 500;
+                }
+                &:last-child{
+                    width: 100%;
+                    height: 204px;
+                    margin-bottom: 35px;
+
+                }
+            }
+        }
+        .contact-form-bot{
+            display: flex;
+            justify-content: space-between;
+            flex-wrap: wrap;
+            align-items: center;
+            gap: 20px;
+            .kvkk{
+                display: flex;
+                gap: 11px;
+                input{
+                    width: 23px;
+                    height: 23px;
+                    border: 1px solid rgba(17, 17, 17, 0.30);
+                    background-color: #EA5F1B;
+                    &:focus{
+                        background-color: #EA5F1B;
+                    }
+                }
+                p{
+                    opacity: 0.65;
+                    color: #111;
+                    font-size: 16px;
+                    font-weight: 400;
+                    line-height: 23px; /* 146.135% */
+                    a{
+                        color: #111;
+                        font-size: 16px;
+                        font-weight: 600;
+                        line-height: 23px;
+                        text-decoration-line: underline;
+                    }
+                }
+            }
+            .submit{
+                border: none;
+                &:hover{
+                    background-color: lighten($color: #EA5F1B, $amount: 10);
+                }
+            }
+        }
+    }
+}

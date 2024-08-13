@@ -1,0 +1,272 @@
+.penta-logo {
+    opacity: .5;
+
+}
+.penta-logo {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    width: -webkit-fit-content;
+    width: -moz-fit-content;
+    width: fit-content;
+    min-width: 125px;
+    line-height: 1;
+}
+
+user agent stylesheet
+div {
+    display: block;
+    unicode-bidi: isolate;
+}
+
+:root {
+    --header-height: 200px;
+}
+:root {
+    --swiper-navigation-size: 44px;
+}
+:root {
+    --swiper-theme-color: #007aff;
+}
+
+*::-webkit-scrollbar {
+    width: 5px;
+    height: 5px;
+}
+*::-webkit-scrollbar-thumb {
+    background-color: #008ed3;
+    border-radius: 10px;
+}
+*::-webkit-scrollbar-track {
+    background-color: rgba(0, 0, 0, .1);
+}
+.penta-logo.dark .penta-logo-text {
+    color: #fff;
+}
+.penta-logo .penta-logo-text {
+    font-weight: 500;
+    max-width: 82px;
+    font-family: "Segoe UI", Tahoma, Verdana, sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 0;
+    margin-right: 5px;
+    -webkit-transform: scale(0.9) translateZ(0) translate3d(0, 0, 0) perspective(1px);
+    transform: scale(0.9) translateZ(0) translate3d(0, 0, 0) perspective(1px);
+    text-align: right;
+    -webkit-transition: opacity .3s ease, max-width .3s ease;
+    transition: opacity .3s ease, max-width .3s ease;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+}
+a, a:hover, a:active, a:focus, a:visited {
+    text-decoration: none;
+}
+
+
+user agent stylesheet
+a:-webkit-any-link {
+    color: -webkit-link;
+    cursor: pointer;
+    text-decoration: underline;
+}
+.penta-logo {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    width: -webkit-fit-content;
+    width: -moz-fit-content;
+    width: fit-content;
+    min-width: 125px;
+    line-height: 1;
+}
+
+:root {
+    --header-height: 200px;
+}
+:root {
+    --swiper-navigation-size: 44px;
+}
+:root {
+    --swiper-theme-color: #007aff;
+}
+*::-webkit-scrollbar {
+    width: 5px;
+    height: 5px;
+}
+*::-webkit-scrollbar-thumb {
+    background-color: #008ed3;
+    border-radius: 10px;
+}
+*::-webkit-scrollbar-track {
+    background-color: rgba(0, 0, 0, .1);
+}
+.penta-logo .penta-logo-brand {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+}
+
+a, a:hover, a:active, a:focus, a:visited {
+    text-decoration: none;
+}
+user agent stylesheet
+a:-webkit-any-link {
+    color: -webkit-link;
+    cursor: pointer;
+    text-decoration: underline;
+}
+.penta-logo {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    width: -webkit-fit-content;
+    width: -moz-fit-content;
+    width: fit-content;
+    min-width: 125px;
+    line-height: 1;
+}
+
+:root {
+    --header-height: 200px;
+}
+:root {
+    --swiper-navigation-size: 44px;
+}
+:root {
+    --swiper-theme-color: #007aff;
+}
+
+*::-webkit-scrollbar {
+    width: 5px;
+    height: 5px;
+}
+*::-webkit-scrollbar-thumb {
+    background-color: #008ed3;
+    border-radius: 10px;
+}
+*::-webkit-scrollbar-track {
+    background-color: rgba(0, 0, 0, .1);
+}
+@keyframes penta-animation {
+    from { transform: scale(0.85) rotateY(0deg) translateZ(0) translate3d(0,0,0) perspective(1px); }
+    to {transform: scale(0.85) rotateY(-360deg) translateZ(0) translate3d(0,0,0) perspective(1px); }
+}
+.penta-logo {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    width: -webkit-fit-content;
+    width: -moz-fit-content;
+    width: fit-content;
+    min-width: 125px;
+    line-height: 1
+}
+
+.penta-logo .penta-logo-brand {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center
+}
+
+.penta-logo .penta-logo-brand .penta-logo-img {
+    width: 33px;
+    height: 30px;
+    position: relative
+}
+
+.penta-logo .penta-logo-brand .penta-logo-img .penta-logo-p {
+    display: block;
+    position: absolute;
+    left: 0;
+    top: 0
+}
+
+.penta-logo .penta-logo-brand .penta-logo-img .penta-logo-y {
+    display: block;
+    position: absolute;
+    left: 8px;
+    top: 15px;
+    -webkit-animation: penta-animation 2s linear infinite;
+    animation: penta-animation 2s linear infinite;
+    -webkit-transform-style: preserve-3d;
+    transform-style: preserve-3d
+}
+
+.penta-logo .penta-logo-text {
+    font-weight: 500;
+    max-width: 82px;
+    font-family: "Segoe UI",Tahoma,Verdana,sans-serif;
+    text-decoration: none;
+
+    text-transform: uppercase;
+    letter-spacing: 0;
+    margin-right: 5px;
+    -webkit-transform: scale(0.9) translateZ(0) translate3d(0, 0, 0) perspective(1px);
+    transform: scale(0.9) translateZ(0) translate3d(0, 0, 0) perspective(1px);
+    text-align: right;
+    -webkit-transition: opacity .3s ease,max-width .3s ease;
+    transition: opacity .3s ease,max-width .3s ease;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex
+}
+
+.penta-logo .penta-logo-brand strong {
+    font-weight: 500;
+    overflow: hidden;
+    text-decoration: none;
+    max-width: 0;
+    display: block;
+    font-family: "Segoe UI",Tahoma,Verdana,sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 0;
+    margin-left: 5px;
+    -webkit-transform: scale(0.9) translateZ(0) translate3d(0, 0, 0) perspective(1px);
+    transform: scale(0.9) translateZ(0) translate3d(0, 0, 0) perspective(1px);
+    -webkit-transition: max-width .3s ease;
+    transition: max-width .3s ease
+}
+
+.penta-logo.dark .penta-logo-text {
+    color: #fff
+}
+
+.penta-logo.dark .penta-logo-brand strong {
+    color: #fff
+}
+
+.penta-logo.light .penta-logo-text {
+    color: #000
+}
+
+.penta-logo.light .penta-logo-brand strong {
+    color: #000
+}
+
+.penta-logo:hover .penta-logo-brand strong {
+    max-width: 75px !important
+}
+
+.penta-logo:hover .penta-logo-text {
+    opacity: 0 !important;
+    max-width: 0 !important
+}

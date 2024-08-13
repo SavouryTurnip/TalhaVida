@@ -1,0 +1,1276 @@
+@media(min-width:1100px) and (max-width:1450px) {
+    .container {
+        max-width: 1050px;
+    }
+
+    header {
+        .navbar {
+            nav {
+                ul {
+                    li {
+                        width: 158px;
+                    }
+
+                    .drop {
+                        .hover-list-2 {
+                            grid-template-columns: auto auto auto auto;
+                            gap: 15px;
+                            padding: 20px;
+
+                            .hidden-li {
+                                width: 151px;
+                                height: 153px;
+                            }
+                        }
+                    }
+                }
+            }
+
+        }
+    }
+
+    .kurumsal-top {
+        flex-direction: column;
+    }
+
+    .misyon-vizyon {
+        img {
+            width: 50%;
+        }
+    }
+
+    .certificates {
+        grid-template-columns: auto auto;
+    }
+
+    .galeri {
+        grid-template-columns: auto auto;
+
+    }
+
+    .urun-grid {
+        grid-template-columns: auto auto;
+    }
+
+    .card-sec {
+        padding: 40px 40px 150px 40px;
+        height: auto;
+
+        .grid-box {
+            grid-template-columns: auto auto;
+            gap: 50px;
+
+            .item {
+                width: 350px;
+
+                .content {
+                    img {
+                        width: 100%;
+                    }
+                }
+
+            }
+        }
+    }
+
+    .contact-page {
+        .contact-form {
+            .input {
+                width: 100%;
+            }
+        }
+    }
+
+    .filler {
+        height: 800px;
+    }
+
+    .profile {
+        .duz {
+            width: 750px;
+        }
+    }
+
+    footer {
+        .container {
+            .div-top {
+                justify-content: space-between;
+                gap: 0 !important;
+
+                .group2 {
+                    .div-top-h1 h1 {
+                        display: none;
+                    }
+
+                    width: 600px;
+
+                    .div-top-form {
+                        width: 472px;
+                    }
+                }
+            }
+
+            .div-mid {
+                .mid-menu {
+                    width: auto;
+
+                    i {
+                        display: none;
+                    }
+
+                    margin-left: auto;
+
+                    .mid-menu-menu {
+                        width: 120px;
+                    }
+
+                    .mid-menu-kurumsal {
+                        margin-left: auto;
+                        margin-right: 30px;
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media(min-width:820px) and (max-width:1099px) {
+    .container {
+        max-width: 810px;
+    }
+
+    .swiper-sec {
+        .swiper-slide {
+            .caption {
+                align-items: normal;
+
+                p {
+                    display: none;
+                }
+            }
+        }
+    }
+
+    header {
+        .navbar {
+            nav {
+                ul {
+                    li {
+                        width: 135px;
+                    }
+
+                    .drop {
+                        .hover-list-2 {
+                            grid-template-columns: auto auto;
+                            gap: 15px;
+                            padding: 20px;
+
+                            .hidden-li {
+                                width: 151px;
+                                height: 153px;
+                            }
+                        }
+                    }
+                }
+            }
+
+        }
+    }
+
+    .kurumsal-top {
+        flex-direction: column;
+    }
+
+    .misyon-vizyon {
+        img {
+            width: 40%;
+        }
+    }
+
+    .certificates {
+        grid-template-columns: auto auto;
+    }
+
+    .galeri {
+        grid-template-columns: auto auto;
+
+    }
+
+    .haber-sec {
+        flex-direction: column-reverse;
+        align-items: center;
+
+        .haber-main {
+            width: 100% !important;
+        }
+
+        .image-holder {
+            width: 80% !important;
+        }
+    }
+
+    .urun-details {
+        table {
+            .table-head {
+                .th-1 {
+                    padding-left: 50px;
+                }
+            }
+
+            tr {
+                .th-1 {
+                    padding-left: 100px;
+                }
+            }
+
+        }
+    }
+
+    .urun-top {
+        flex-direction: column-reverse;
+        gap: 0;
+    }
+
+    .contact-main {
+        flex-direction: column;
+    }
+
+    .contact-page {
+        .info {
+            width: 100%;
+        }
+
+        .contact-form {
+            width: 100%;
+
+            .input {
+                width: 100%;
+            }
+        }
+    }
+
+    .oku {
+        display: none !important;
+    }
+
+    .haber-grid {
+        grid-template-columns: auto auto;
+
+    }
+
+    .urun-grid {
+        grid-template-columns: auto auto;
+    }
+
+    .card-sec {
+        height: auto;
+
+        .grid-box {
+            grid-template-columns: auto auto;
+
+            .item {
+                width: 350px;
+
+                .content {
+                    img {
+                        width: 100%;
+                    }
+                }
+
+            }
+        }
+    }
+
+    .filler {
+        height: 800px;
+    }
+
+    .profile {
+        .duz {
+            width: 750px;
+        }
+    }
+
+    footer {
+        .container {
+            .div-top {
+                justify-content: space-between;
+                gap: 0 !important;
+
+                .group2 {
+                    .div-top-h1 h1 {
+                        display: none;
+                    }
+
+                    width: 600px;
+
+                    .div-top-form {
+                        width: 472px;
+                    }
+                }
+            }
+
+            .div-mid {
+                i {
+                    display: none;
+                }
+
+                .mid-menu {
+                    width: auto;
+                    margin-left: auto;
+
+                    .mid-menu-menu {
+                        width: 120px;
+                    }
+
+                    .mid-menu-kurumsal {
+                        margin-left: auto;
+                        margin-right: 30px;
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media(min-width:576px) and (max-width:819px) {
+    .container {
+        max-width: 550px;
+    }
+
+    .swiper-sec {
+        .swiper-slide {
+            .caption {
+                align-items: normal;
+                max-height: 150px;
+
+                h3 {
+                    font-size: 25px;
+                }
+
+                p {
+                    display: none;
+
+                }
+
+                .incele {
+                    padding: 10px 20px 10px 20px;
+
+                    i {
+                        display: none;
+                    }
+                }
+            }
+        }
+    }
+
+    .kurumsal-top {
+        flex-direction: column;
+    }
+
+    .misyon-vizyon {
+        img {
+            display: none;
+        }
+    }
+
+    .certificates {
+        grid-template-columns: auto auto;
+    }
+
+    .galeri {
+        grid-template-columns: auto auto;
+
+    }
+
+    .haber-sec {
+        flex-direction: column-reverse;
+        align-items: center;
+
+        .haber-main {
+            width: 100% !important;
+        }
+
+        .image-holder {
+            width: 80% !important;
+        }
+    }
+
+    .urun-top {
+        flex-direction: column-reverse;
+        gap: 0;
+    }
+
+    .oku {
+        display: none !important;
+    }
+
+    .urun-details {
+        padding: 20px 40px 20px 40px;
+
+        table {
+            .table-head {
+                .th-1 {
+                    padding-left: 25px;
+                }
+            }
+
+            tr {
+                .th-1 {
+                    padding-left: 75px;
+                }
+            }
+
+        }
+    }
+
+    .haber-grid {
+        grid-template-columns: auto auto;
+
+        .haber {
+            .haber-bot {
+                .haber-link {
+                    .oku {
+                        display: none;
+                    }
+                }
+            }
+        }
+    }
+
+    .contact-main {
+        flex-direction: column;
+    }
+
+    .urun-page {
+        margin-top: 63px;
+    }
+
+    .contact-page {
+        margin-top: 63px;
+
+        .info {
+            width: 100%;
+        }
+
+        .contact-form {
+            width: 100%;
+
+            .input {
+                width: 100%;
+            }
+        }
+    }
+
+    .oku {
+        display: none !important;
+    }
+
+    .urun-grid {
+        grid-template-columns: auto auto;
+    }
+
+    .logo {
+        img {
+            height: 60px;
+        }
+
+    }
+
+    .sl {
+        display: block;
+    }
+
+    .slider {
+        .header-div {
+            display: flex;
+        }
+    }
+
+    header {
+        .fa-bars {
+            display: block;
+        }
+    }
+
+    .header-div {
+        display: none;
+    }
+
+    .navbar {
+        display: none;
+    }
+
+    .haberler {
+        margin-top: 57px;
+    }
+
+    .urunler {
+        margin-top: 57px;
+    }
+
+    .main {
+        .banner {
+            margin-top: 63px;
+        }
+
+        .baslik-div {
+            width: 550px;
+
+            .baslik1 {
+                font-size: 32px;
+            }
+
+            .baslik2 {
+                font-size: 26px;
+            }
+        }
+    }
+
+    .card-sec {
+        height: auto;
+        top: 300px;
+
+        .durmaz-vida {
+            font-size: 32px;
+        }
+
+        .grid-box {
+            grid-template-columns: auto auto;
+
+            .item {
+                width: 250px;
+
+                .content {
+                    img {
+                        width: 100%;
+                    }
+
+                    .card-bot {
+                        padding-left: 20px;
+                        padding-right: 20px;
+                    }
+                }
+
+            }
+        }
+    }
+
+    .filler {
+        height: 800px;
+    }
+
+    .profile {
+        height: 450px;
+
+        .duz {
+            width: 500px;
+        }
+    }
+
+    footer {
+        display: flex;
+        flex-direction: column;
+        height: auto;
+        background: url(../images/footer.png) no-repeat top;
+        background-color: #01336D !important;
+
+        .container {
+            height: auto;
+
+            .div-top {
+                flex-direction: column;
+                gap: 80px;
+
+                svg {
+                    width: 100%;
+                }
+
+                .group2 {
+                    width: 80%;
+
+                    .div-top-h1 h1 {
+                        display: none;
+                    }
+
+                    .div-top-form {
+                        width: 100%;
+                    }
+                }
+            }
+
+            .div-mid {
+                gap: 40px;
+                justify-content: auto;
+                flex-direction: column;
+                align-items: center;
+
+                .mid-menu {
+                    width: 550px;
+
+                    i {
+                        display: auto;
+                    }
+
+                    .mid-menu-menu {
+                        width: auto;
+                    }
+
+                    .mid-menu-kurumsal {
+                        margin: 0;
+                    }
+
+
+                }
+            }
+
+            .end {
+                padding: 20px;
+            }
+        }
+    }
+
+    .grid-icon {
+        gap: auto;
+        width: auto;
+    }
+
+    .submit {
+        width: 70;
+    }
+}
+
+@media(min-width:401px) and (max-width:576px) {
+    .container {
+        max-width: 400px;
+    }
+
+    .swiper-sec {
+        .swiper-slide {
+            .caption {
+                align-items: normal;
+                max-height: 150px;
+
+                h3 {
+                    font-size: 25px;
+                }
+
+                p {
+                    display: none;
+
+                }
+
+                .incele {
+                    display: none;
+                    padding: 10px 15px 10px 15px;
+
+                    i {
+                        display: none;
+                    }
+                }
+            }
+        }
+    }
+
+    .kurumsal-top {
+        flex-direction: column;
+    }
+
+    .misyon-vizyon {
+        img {
+            display: none;
+        }
+    }
+
+    .certificates {
+        grid-template-columns: auto;
+    }
+
+    .galeri {
+        grid-template-columns: auto;
+
+    }
+
+    .contact-main {
+        flex-direction: column;
+    }
+
+    .urun-top {
+        flex-direction: column-reverse;
+        gap: 0;
+    }
+
+    .urun-details {
+        padding: 10px 20px 10px 25px;
+
+        table {
+            .table-head {
+                .th-1 {
+                    padding-left: 5px;
+                }
+            }
+
+            tr {
+                .th-1 {
+                    padding-left: 55px;
+                }
+            }
+
+        }
+    }
+
+    .urun-page {
+        margin-top: 57px;
+    }
+
+    .contact-page {
+        margin-top: 57px;
+
+        .info {
+            width: 100%;
+        }
+
+        .contact-form {
+            width: 100%;
+
+            .input {
+                width: 100%;
+            }
+        }
+    }
+
+    .oku {
+        display: none !important;
+    }
+
+    .haber-sec {
+        flex-direction: column-reverse;
+        align-items: center;
+
+        .haber-main {
+            width: 100% !important;
+        }
+
+        .image-holder {
+            width: 80% !important;
+        }
+    }
+
+    .logo {
+        img {
+            height: 50px;
+        }
+
+    }
+
+    .haber-grid {
+        grid-template-columns: auto;
+    }
+
+    .urun-grid {
+        grid-template-columns: auto;
+    }
+
+    .sl {
+        display: block;
+    }
+
+    header {
+        .fa-bars {
+            display: block;
+        }
+    }
+
+    .slider {
+        .header-div {
+            display: flex;
+        }
+    }
+
+    .header-div {
+        display: none;
+    }
+
+    .navbar {
+        display: none;
+    }
+
+    .haberler {
+        margin-top: 57px;
+    }
+
+    .urunler {
+        margin-top: 57px;
+    }
+
+    .main {
+        .banner {
+            margin-top: 57px;
+        }
+
+        .baslik-div {
+            width: 400px;
+
+            .baslik1 {
+                font-size: 25px;
+            }
+
+            .baslik2 {
+                font-size: 20px;
+            }
+        }
+    }
+
+    .card-sec {
+        height: auto;
+        top: 300px;
+
+        .durmaz-vida {
+            font-size: 25px;
+        }
+
+        .grid-box {
+            grid-template-columns: auto;
+
+            .item {
+                width: 250px;
+
+                .content {
+                    img {
+                        width: 100%;
+                    }
+
+                    .card-bot {
+                        padding-left: 20px;
+                        padding-right: 20px;
+                    }
+                }
+
+            }
+        }
+    }
+
+    .filler {
+        height: 1700px;
+    }
+
+    .profile {
+        height: 550px;
+
+        .duz {
+            width: 300px;
+        }
+    }
+
+    footer {
+        display: flex;
+        flex-direction: column;
+        height: auto !important;
+        background: url(../images/footer.png) no-repeat top;
+        background-color: #01336D;
+
+        .container {
+            display: flex;
+            flex-direction: column;
+            height: auto !important;
+
+            .div-top {
+                gap: 60px;
+                flex-wrap: wrap;
+                text-align: left;
+
+                svg {
+                    width: 200px;
+                }
+
+                .group2 {
+                    width: 100%;
+                    justify-content: left;
+                    margin: 0;
+
+                    .div-top-h1 h1 {
+                        display: none;
+                    }
+
+                    .div-top-form {
+                        width: 100%;
+                        margin: 0;
+                    }
+                }
+            }
+
+            .div-mid {
+                display: flex;
+                flex-direction: column;
+                padding-top: 40px;
+                gap: 60px;
+
+                .mid-sosyal {
+                    margin: 0;
+                }
+
+                .grid-icon {
+                    width: 295px;
+                }
+
+                h1 {
+                    color: #EA5F1B !important;
+                }
+
+                .mid-menu {
+                    width: 100%;
+                    height: auto;
+                    display: none;
+                    flex-direction: column;
+                    gap: 10px;
+
+                    .mid-menu-kurumsal {
+                        margin: 0;
+                    }
+                }
+
+            }
+
+            .end {
+                display: flex;
+                flex-direction: column;
+                gap: 10px;
+                padding: 10px;
+            }
+        }
+    }
+
+    .submit {
+        width: 100px;
+    }
+
+    .menu-drop {
+        display: none;
+    }
+
+    .kurum-drop {
+        display: none;
+    }
+
+    .urun-drop {
+        display: none;
+    }
+}
+
+@media(max-width:400px) {
+    .container {
+        max-width: 320px;
+    }
+
+    .swiper-sec {
+        .swiper-slide {
+            .caption {
+                align-items: normal;
+                max-height: 150px;
+
+                h3 {
+                    font-size: 20px;
+                }
+
+                p {
+                    display: none;
+
+                }
+
+                .incele {
+                    display: none;
+                    padding: 10px 15px 10px 15px;
+
+                    i {
+                        display: none;
+                    }
+                }
+            }
+        }
+    }
+
+    .kurumsal-top {
+        flex-direction: column;
+    }
+
+    .misyon-vizyon {
+        img {
+            display: none;
+        }
+    }
+
+    .certificates {
+        grid-template-columns: auto;
+    }
+
+    .galeri {
+        grid-template-columns: auto;
+
+    }
+
+    .urun-top {
+        flex-direction: column-reverse;
+        gap: 0;
+    }
+
+    .urun-details {
+        padding: 10px 20px 10px 25px;
+
+        table {
+            .table-head {
+                .th-1 {
+                    padding-left: 5px;
+                }
+            }
+
+            tr {
+                .th-1 {
+                    padding-left: 10px;
+                }
+            }
+
+        }
+    }
+
+    .oku {
+        display: none !important;
+    }
+
+    .contact-main {
+        flex-direction: column;
+    }
+
+    .urun-page {
+        margin-top: 53px;
+    }
+
+    .contact-page {
+        margin-top: 53px;
+
+        .info {
+            width: 100%;
+            padding: 10px 15px 10px 15px;
+
+            .mid-sosyal {
+                .grid-fallow {
+                    gap: 10px;
+                }
+            }
+        }
+
+        .contact-form {
+            width: 100%;
+
+            .input {
+                width: 100%;
+            }
+        }
+    }
+
+    .haber-sec {
+        flex-direction: column-reverse;
+        align-items: center;
+
+        .haber-main {
+            width: 100% !important;
+        }
+
+        .image-holder {
+            width: 80% !important;
+        }
+    }
+
+    .sl {
+        display: block;
+    }
+
+    .logo {
+        img {
+            height: 50px;
+        }
+
+    }
+
+    .haber-grid {
+        grid-template-columns: auto;
+    }
+
+    .urun-grid {
+        grid-template-columns: auto;
+    }
+
+    .slider {
+        .header-div {
+            display: flex;
+        }
+    }
+
+    header {
+        .fa-bars {
+            display: block;
+        }
+    }
+
+    .header-div {
+        display: none;
+    }
+
+    .navbar {
+        display: none;
+    }
+
+    .haberler {
+        margin-top: 53px;
+    }
+
+    .urunler {
+        margin-top: 53px;
+    }
+
+    .main {
+        .banner {
+            margin-top: 53px;
+        }
+
+        .baslik-div {
+            width: 300px;
+
+            .baslik1 {
+                font-size: 25px;
+            }
+
+            .baslik2 {
+                font-size: 20px;
+            }
+        }
+    }
+
+    .card-sec {
+        height: auto;
+        top: 300px;
+
+        .durmaz-vida {
+            font-size: 25px;
+        }
+
+        .grid-box {
+            grid-template-columns: auto;
+
+            .item {
+                width: 250px;
+
+                .content {
+                    img {
+                        width: 100%;
+                    }
+
+                    .card-bot {
+                        padding-left: 20px;
+                        padding-right: 20px;
+                    }
+                }
+
+            }
+        }
+    }
+
+    .filler {
+        height: 1700px;
+    }
+
+    .profile {
+        height: 550px;
+
+        .duz {
+            width: 300px;
+        }
+    }
+
+    footer {
+        display: flex;
+        flex-direction: column;
+        height: auto !important;
+        background: url(../images/footer.png) no-repeat top;
+        background-color: #01336D;
+
+        .container {
+            display: flex;
+            flex-direction: column;
+            height: auto !important;
+
+            .div-top {
+                gap: 60px;
+                flex-wrap: wrap;
+                text-align: center;
+
+                svg {
+                    width: 200px;
+                }
+
+                .logo-group {
+                    margin: auto;
+
+                }
+
+                .group2 {
+                    width: 100%;
+                    justify-content: center;
+                    margin: auto;
+
+                    .div-top-h1 h1 {
+                        display: none;
+                    }
+
+                    .div-top-form {
+                        width: 100%;
+                    }
+                }
+            }
+
+            .div-mid {
+                display: flex;
+                flex-direction: column;
+                padding-top: 40px;
+                gap: 60px;
+
+                .mid-sosyal {
+                    margin: auto;
+                }
+
+                .grid-icon {
+                    width: 295px;
+                }
+
+                h1 {
+                    color: #EA5F1B !important;
+                }
+
+                .mid-menu {
+                    width: 100%;
+                    height: auto;
+
+                    display: none;
+                    flex-direction: column;
+                    gap: 10px;
+
+                    .mid-menu-kurumsal {
+                        margin: 0;
+                    }
+                }
+
+            }
+
+            .end {
+                display: flex;
+                flex-direction: column;
+                gap: 10px;
+                padding: 10px;
+            }
+        }
+    }
+
+    .submit {
+        width: 100px;
+    }
+
+}

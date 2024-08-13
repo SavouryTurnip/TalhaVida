@@ -1,0 +1,72 @@
+@font-face {
+    font-family: 'Yellix';
+    src: url('hinted-Yellix-ExtraBold.woff2') format('woff2'),
+        url('hinted-Yellix-ExtraBold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Yellix';
+    src: url('hinted-Yellix-Medium.woff2') format('woff2'),
+        url('hinted-Yellix-Medium.woff') format('woff');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Yellix';
+    src: url('hinted-Yellix-Bold.woff2') format('woff2'),
+        url('hinted-Yellix-Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Yellix';
+    src: url('hinted-Yellix-Regular.woff2') format('woff2'),
+        url('hinted-Yellix-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Yellix';
+    src: url('hinted-Yellix-Black.woff2') format('woff2'),
+        url('hinted-Yellix-Black.woff') format('woff');
+    font-weight: 900;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Yellix';
+    src: url('hinted-Yellix-Light.woff2') format('woff2'),
+        url('hinted-Yellix-Light.woff') format('woff');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Yellix';
+    src: url('hinted-Yellix-Thin.woff2') format('woff2'),
+        url('hinted-Yellix-Thin.woff') format('woff');
+    font-weight: 100;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Yellix';
+    src: url('hinted-Yellix-SemiBold.woff2') format('woff2'),
+        url('hinted-Yellix-SemiBold.woff') format('woff');
+    font-weight: 600;
+    font-style: normal;
+    font-display: swap;
+}
+

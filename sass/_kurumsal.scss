@@ -1,0 +1,302 @@
+.kurumsal-top {
+    display: flex;
+    flex-direction: row;
+    gap: 69px;
+    margin-top: 44px;
+    margin-bottom: 100px;
+
+    .kurumsal-bilgi {
+        margin-top: 40px;
+        margin-bottom: 42px;
+
+        span {
+            color: #111;
+            font-size: 16px;
+            font-weight: 400;
+        }
+
+        h2 {
+            color: #111;
+            font-size: 30px;
+            font-weight: 700;
+        }
+
+        p {
+            margin-top: 30px;
+            margin-bottom: 30px;
+            padding-right: 30px;
+            color: #111;
+            font-size: 18px;
+            font-weight: 400;
+            line-height: 30px;
+            /* 166.667% */
+        }
+
+        ul {
+            padding-left: 20px;
+
+            li {
+                list-style: square;
+                color: #111;
+                font-size: 18px;
+                font-weight: 400;
+                line-height: 30px;
+
+                &::marker {
+                    color: #ea5f1b
+                }
+            }
+        }
+    }
+
+    img {
+        max-width: 100%;
+        max-height: 100%;
+    }
+
+
+}
+
+.misyon-vizyon {
+    display: flex;
+    background: radial-gradient(148.4% 45.11% at 11.83% 50%, rgba(14, 107, 178, 0.50) 0%, rgba(1, 51, 109, 0.50) 100%), #01336D;
+    justify-content: space-between;
+    padding: 50px 60px 50px 0;
+
+
+    .misyon-vizyon-holder {
+        position: relative;
+        padding-left: 98px;
+
+        .bar {
+            position: absolute;
+            z-index: 9;
+            top: 0;
+            left: 0;
+            display: block;
+            width: 15px;
+            height: 200px;
+            background: #ea5f1b;
+            transition: .45s;
+        }
+    }
+
+    h2 {
+        color: #FFF;
+        font-size: 40px;
+        font-weight: 600;
+        line-height: 50px;
+        /* 125% */
+        margin-bottom: 38px;
+    }
+
+    p {
+        color: #FFF;
+        font-size: 18px;
+        font-weight: 400;
+        line-height: 28px;
+        /* 155.556% */
+        width: 100%;
+        max-width: 531px;
+
+    }
+
+    .target {
+        transition: .45s;
+    }
+
+    .misyon {
+        margin-top: 50px;
+    }
+
+    .vizyon {
+        margin-top: 100px;
+        margin-bottom: 50px;
+    }
+}
+
+.quality-policy {
+    margin-top: 100px;
+    text-align: center;
+
+    h2 {
+        color: #111;
+        font-size: 30px;
+        font-weight: 700;
+        margin-bottom: 25px;
+    }
+
+    p {
+        color: #111;
+        font-size: 18px;
+        font-weight: 400;
+        line-height: 15px;
+        /* 83.333% */
+    }
+}
+
+.certificates {
+    margin-top: 96px;
+    margin-bottom: 100px;
+    display: grid;
+    grid-template-columns: repeat(4, auto);
+    gap: 32px;
+
+    .item {
+        background: #f7f7f7;
+        display: flex;
+        justify-content: space-between;
+        position: relative;
+        padding: 281px 35px 35px 35px;
+        align-items: center;
+        transition: .45s;
+        cursor: pointer;
+
+        &:hover {
+            background-color: #01336D;
+
+            img {
+                top: -36px;
+            }
+
+            span {
+                color: #FFF;
+                font-size: 17px;
+                font-weight: 500;
+            }
+
+            button {
+                &::after {
+                    transform: scaleY(1);
+                    z-index: 0;
+                    transform-origin: top;
+                }
+
+                i {
+                    color: #fff;
+                    z-index: 1;
+
+                }
+            }
+        }
+
+        img {
+            position: absolute;
+            top: -20px;
+            left: 50%;
+            transform: translate(-50%, 0);
+            transition: .45s;
+
+        }
+
+        button {
+            width: 50px;
+            height: 50px;
+            background-color: #f7f7f7;
+            border: 1px solid #ea5f1b;
+            position: relative;
+            transition: .45s;
+            cursor: pointer;
+
+            &::after {
+                content: " ";
+                position: absolute;
+                background-color: #ea5f1b;
+                z-index: 0;
+
+                width: 100%;
+                height: 100%;
+                top: 0;
+                left: 0;
+                transform: scaleY(0);
+                transition: transform .45s;
+                transform-origin: bottom;
+            }
+
+
+            i {
+                color: #ea5f1b;
+                font-size: 17px;
+                z-index: 1;
+                transition: .45s;
+                position: relative;
+
+
+            }
+        }
+
+        span {
+            color: #282828;
+            font-size: 17px;
+            font-weight: 500;
+            transition: .45s;
+
+        }
+    }
+}
+
+.galeri-baslik {
+    color: #111;
+    text-align: center;
+    font-size: 30px;
+    font-weight: 700;
+    margin-bottom: 30px;
+}
+
+.galeri {
+    display: grid;
+    grid-template-columns: repeat(4, auto);
+    gap: 24px;
+    margin-bottom: 100px;
+
+    .item {
+        position: relative;
+        width: auto;
+
+        &:hover {
+            div {
+                opacity: 1;
+                cursor: pointer;
+            }
+        }
+
+        img {
+            width: 100%;
+            height: 100%;
+        }
+
+        div {
+            background: linear-gradient(0deg, rgba(188, 188, 188, 0.50) 0%, rgba(188, 188, 188, 0.50) 100%);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            position: absolute;
+            top: 0;
+            right: 0;
+            z-index: 90;
+            width: 100%;
+            height: 100%;
+            opacity: 0;
+            transition: .35s;
+
+            button {
+                display: flex;
+                justify-content: space-between;
+                width: 150px;
+                border: none;
+                height: 50px;
+                background-color: #ea5f1b;
+                padding: 15px 21px 15px 21px;
+                color: #FFF;
+                font-size: 16px;
+                font-weight: 500;
+                cursor: pointer;
+
+                i {
+                    margin-top: 2px;
+                }
+            }
+        }
+    }
+
+}
